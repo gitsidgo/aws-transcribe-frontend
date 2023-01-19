@@ -1,20 +1,35 @@
 {
   "name": "frontend-app",
   "version": "0.1.0",
+  "type": "module",
   "private": true,
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "nock": "^13.3.0"
+  },
   "dependencies": {
+    "@aws-sdk/eventstream-marshaller": "0.1.0-preview.2",
+    "@aws-sdk/util-utf8-node": "0.1.0-preview.1",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "aws-sdk": "^2.730.0",
+    "axios": "^0.19.2",
+    "microphone-stream": "^5.0.1",
     "react": "^17.0.2",
+    "react-contenteditable": "^3.3.5",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^1.1.1",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "unitTest": "mocha",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
